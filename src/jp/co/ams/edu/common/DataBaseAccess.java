@@ -27,8 +27,6 @@ class DataBaseAccess {
 
 
 
-
-
     /**
      * コンストラクタ
      * @param
