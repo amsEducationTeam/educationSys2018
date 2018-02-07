@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Edit</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+
+
+	<script src="../js/jsjquery-3.3.1.min.js"></script>
+	<script src="../popper.js-1.12.9/dist/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>編集ページ</h1>
+	</header>
+	<div class="container">
+		<form action="" class="form-horizontal">
+			<div class="row">
+			<div class="form-group col-md-6">
+				<label for="exampleSelect1">カテゴリ</label>
+				<select class="form-control" id="exampleSelect1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			<div class="form-group col-md-6">
+				<label for="exampleSelect1">出題年度</label>
+				<select class="form-control" id="exampleSelect1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-sm-2 control-label" for="InputTextarea">問題</label>
+				<div class="col-sm-10">
+					<textarea placeholder="設問テキストを入力" rows="3" class="form-control" id="InputTextarea"></textarea>
+				</div>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<div class="row">
+							<div class="col-md-1">
+								<th>選択肢</th>
+							</div>
+							<div class="col-md-1">
+								<th>正解</th>
+							</div>
+							<div class="col-md-10">
+								<th>内容</th>
+							</div>
+						
+						</div>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ア</td>
+						<td><div class="radio">
+							<label>
+								<input type="radio" name="radioName" value="radioA">
+							</label>
+						</div></td>
+						<td>
+							<!-- <input type="text" placeholder="選択肢内容1"> -->
+							<textarea placeholder="選択肢内容1" rows="1" class="form-control" id="InputTextarea"></textarea>
+
+						</td>
+					</tr>
+					<tr>
+						<td>イ</td>
+						<td><div class="radio">
+							<label>
+								<input type="radio" name="radioName" value="radioA">
+							</label>
+						</div></td>
+						<td>
+							<textarea placeholder="選択肢内容2" rows="1" class="form-control" id="InputTextarea"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>ウ</td>
+						<td><div class="radio">
+							<label>
+								<input type="radio" name="radioName" value="radioA">
+							</label>
+						</div></td>
+						<td>
+							<textarea placeholder="選択肢内容3" rows="1" class="form-control" id="InputTextarea"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>エ</td>
+						<td><div class="radio">
+							<label>
+								<input type="radio" name="radioName" value="radioA">
+							</label>
+						</div></td>
+						<td>
+							<textarea placeholder="選択肢内容4" rows="1" class="form-control" id="InputTextarea"></textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<button class="btn btn-primary" type="submit">アップロード</button>
+		</form>
+	</div>
+</body>
+</html>

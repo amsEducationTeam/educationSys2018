@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Questions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	
+
+	<script src="../js/jsjquery-3.3.1.min.js"></script>
+	<script src="../popper.js-1.12.9/dist/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>出題ページ</h1>
+	</header>
+	<div class="container">
+		<form class="form-horizontal">
+			<div class="row">
+			<div class="form-group category col-sm-4">
+				<label for="exampleSelect1">カテゴリ</label>
+				<select class="form-control" id="exampleSelect1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			<div class="form-group category col-sm-4">
+				<label for="exampleSelect1">出題年度</label>
+				<select class="form-control" id="exampleSelect1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			<div class="form-group category col-sm-4">
+				<label for="exampleSelect1">並べ替え</label>
+				<select class="form-control" id="exampleSelect1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+			</div>
+			</div>
+
+			<nav aria-label="ページ送りの実例">
+				<ul class="pagination justify-content-center">
+					<li class="page-item"><a class="page-link" href="#"><<</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">4</a></li>
+					<li class="page-item"><a class="page-link" href="#">5</a></li>
+					<li class="page-item"><a class="page-link" href="#">>></a></li>
+				</ul>
+			</nav>
+
+			<!-- <button class="btn btn-defaulty" type="submit">答え合わせ</button> -->
+
+		</form>
+
+		<form action="">
+			
+			<a class="btn btn-default" href="../answers/answers.html" role="button">答え合わせ</a>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>NO.</th>
+						<th>設問</th>
+						<th>ア</th>
+						<th>イ</th>
+						<th>ウ</th>
+						<th>エ</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<th>1</th>
+								<td>設問1</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA">1
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA">1
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA">1
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA">1
+										</label>
+									</div>
+								</td>
+							</div>
+						</div>
+					</tr>
+
+
+					<tr>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<th>2</th>
+								<td>設問2</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioB" value="radioB">2
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioB" value="radioB">2
+										</label>
+									</div></td>
+									<td>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radioB" value="radioB">2
+											</label>
+										</div></td>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="radio" name="radioB" value="radioB">2
+												</label>
+											</div>
+										</td>
+									</div>
+								</div>
+
+
+
+
+							</tr>
+							<tr>
+								<th>3</th>
+								<td>設問3</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioC" value="radioA">3
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioC" value="radioA">3
+										</label>
+									</div>
+								</td>
+								<td><div class="radio">
+									<label>
+										<input type="radio" name="radioC" value="radioA">3
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioC" value="radioA">3
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>4</th>
+							<td>設問4</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA">4
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA">4
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA">4
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA">4
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>5</th>
+							<td>設問5</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA">5
+									</label>
+								</div></td>
+								<td><div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA">5
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA">5
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA">5
+									</label>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</form>
+		</div>
+	</body>
+	</html>
