@@ -24,7 +24,7 @@ class DataBaseAccess {
     private String url;
     private String user;
     private String pass;
-
+あああ
 
 
 
