@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    
+
 
     <script src="../js/jsjquery-3.3.1.min.js"></script>
     <script src="../popper.js-1.12.9/dist/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>
-            <div class="header">
-                <img class="logo" src="../img/desert.jpg" alt="仮ロゴ">
-            </div>
-        </h1>
-    </header>
+<!--
+    you can substitue the span of reauth email for a input with the email and
+    include the remember me checkbox
+    -->
     <div class="container">
         <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <!-- <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" /> -->
             <div class="card-header">
-                <h2>Java課題演習</h2> 
+                <h2>Java課題演習</h2>
             </div>
             <p id="profile-name" class="profile-name-card"></p>
             <form class="form-signin">
@@ -35,9 +34,7 @@
                         <input type="checkbox" value="remember-me"> ログイン状態を保存する
                     </label>
                 </div>
-                <a class="btn btn-primary btn-block btn-signin" href="../questions/questions.html" role="button">ログイン</a>
-                <!-- <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">ログイン</button> -->
-
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">ログイン</button>
             </form><!-- /form -->
             <a href="#" class="forgot-password">
                 パスワードをお忘れですか?
